@@ -1,0 +1,215 @@
+
+body {
+  font-family: 'Helvetica', 'Verdana', sans-serif;
+  margin: 0;
+  color: white;
+  background-color: black;  
+}
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
+/*Background image of first title*/
+.titlescreen {
+  color:white;
+  text-align: center;
+  background-image: url(https://cdn.glitch.com/d9cf65ee-730a-4e61-ac03-3ae1ca3eff27%2Fwil-stewart-RpDA3uYkJWM-unsplash.jpg?v=1575410234389);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 10px);
+}
+
+/*First title*/
+.nebula {
+  padding-top: 300px;
+    font-size: 80px;
+}
+
+
+/*info of picture of the day*/
+#info {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*image of the day*/
+#dhurl{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-repeat: no-repeat;
+	height: auto;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  
+}
+
+/*Piture and info of the image searched (Nebula)*/
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-repeat: no-repeat;
+	height: auto;
+  text-align: center;
+}
+
+/*Title of picture of the day*/
+.title {
+  font-weight: bold;
+  font-size:50px;
+  text-align: center;
+  margin-bottom: -40px;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+/*picture of the image searched (nebula) */
+.test {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+	height: auto;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 800px) {
+
+ /*info of picture of the day*/
+#info {
+ text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size:13px; 
+}
+
+  /*Piture and info of the image searched (Nebula)*/
+.card {
+font-size:12px; 
+}
+
+  /*image of the day*/
+.title {
+font-size:20px; 
+margin-bottom: 20px;
+  
+}
+
+  /*picture of the image searched (nebula) */
+.test {
+font-size:13px; 
+  width: 90%;
+}
+  
+  .nebula {
+  padding-top: 300px;
+    font-size: 50px;
+} 
+} /*end of media screen*/
+
+
+
+
+
+
+
+/*Media screen numer 2*/
+@media screen and (min-width: 900px) {
+  
+   /*info of picture of the day*/
+  #info {
+ text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size:20px;
+  }
+  
+  
+  /*image of the day*/
+  #dhurl{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	height: auto;
+}
+  
+/*Title of picture of the day*/
+.card {
+font-size:20px; 
+width: 50%;
+}
+}/*end of media screen numer 2*/
+
+
+@media screen and (max-height: 600px) {
+.nebula {
+    font-size: 40px;
+  padding-top: 150px;
+}
+
+}
+
+/*
+@media screen and (max-width: 300px) {
+.nebula {
+  padding-top: 300px;
+    font-size: 30px;
+}
+  
+.titlescreen {
+  height: calc(100vh - 200px);
+}
+
+}*/
+
+
+
+
+
+
